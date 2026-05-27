@@ -217,19 +217,20 @@ ul { list-style: none; }
 
 .hero-wordmark {
     width: 100%;
-    max-width: 560px;
+    max-width: 580px;
     height: auto;
-    margin: 0 auto 20px;
-    filter: brightness(0) invert(1) drop-shadow(0 0 40px rgba(255,255,255,0.15));
+    margin: 0 auto 24px;
+    filter: brightness(0) invert(1) drop-shadow(0 0 50px rgba(255,255,255,0.2));
     display: block;
 }
 
 .hero-tagline {
-    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
     font-weight: 800;
-    color: var(--blue);
-    letter-spacing: 0.3em;
+    color: var(--white);
+    letter-spacing: 0.32em;
     margin-bottom: 28px;
+    text-shadow: 0 0 30px rgba(255,255,255,0.2);
 }
 
 .hero-subtitle {
